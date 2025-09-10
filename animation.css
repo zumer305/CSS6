@@ -1,0 +1,52 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /* ANIMATION */
+    animation-name: fontsize;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+
+
+      animation-name: boxCol;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+
+       animation-name: boxwidth;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+}
+@keyframes fontsize{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+@keyframes boxCol{
+    from{
+        background-color: pink;
+    }
+    to{
+        background-color: yellow;
+    }
+}
+@keyframes boxwidth{
+    from{
+        width: 10px;
+    }
+    to{
+        width: 100px;
+    }
+}
