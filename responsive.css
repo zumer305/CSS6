@@ -32,3 +32,10 @@ div{
     }
 }
 
+
+@media (min-width:450px) and (max-width:500px){
+    h1{
+        background-color:rgb(151, 14, 163);
+    }
+}
+
