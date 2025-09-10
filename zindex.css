@@ -1,0 +1,26 @@
+
+.boxOne{
+      height: 150px;
+    width:150px;
+    border: 2px solid black;
+       background-color: pink;
+       /* static,default (no xxxxxxxxx) */
+       position: relative;
+       /* +(uper)/-(peechy) */
+       z-index: 1;
+}
+.boxTwo{
+      height: 150px;
+    width:150px;
+    border: 2px solid black;
+       background-color: blue;
+       position: relative;
+       bottom:50px;
+       
+}
+.boxThree{
+      height: 150px;
+    width:150px;
+    border: 2px solid black;
+       background-color: yellow;
+}
